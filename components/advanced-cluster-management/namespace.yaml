@@ -1,0 +1,15 @@
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: open-cluster-management
+  labels:
+    kubernetes.io/metadata.name: open-cluster-management
+    openshift.io/cluster-monitoring: "true"
+    pod-security.kubernetes.io/audit: privileged
+    pod-security.kubernetes.io/audit-version: latest
+    pod-security.kubernetes.io/warn: privileged
+    pod-security.kubernetes.io/warn-version: latest
+  annotations:
+    security.openshift.io/MinimallySufficientPodSecurityStandard: privileged
+spec: {}

@@ -6,4 +6,3 @@ resources:
   - namespace.yaml
   - subscription.yaml
   - operatorgroup.yaml
-  - multiclusterhub.yaml
